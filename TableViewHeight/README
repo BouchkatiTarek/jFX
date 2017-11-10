@@ -1,0 +1,5 @@
+This Demo is a workaround to be able to resize JavaFx TableView in order to hide empty rows.
+
+Usage : 
+    double height = FXTableHeightCalculator.getHeight(table);
+    table.setMaxHeight(h + 2);
